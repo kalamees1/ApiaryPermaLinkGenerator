@@ -12,6 +12,12 @@ python ApiaryPermalinkGen.py -i "your-file-with-apiary-blueprint"
 
 It will generate new file called apiaryWithPermaLinks.txt in the same dir where the python file is. Generated file will contain blueprint with permalinks. Every permalink will be inserted after service name in format of `<a name="your-service-name">`
 
+## How to use permalinks
+if generated link is foo permalink is following
+```
+http://docs.{yourSubdomain}.apiary.io/#foo
+```
+
 ## Options
 - `-c` Clears previous permaliks. Use this option if you already have permalinks in your blueprint
 - `-o` Output file. Allows to specify output file to write blueprint.
