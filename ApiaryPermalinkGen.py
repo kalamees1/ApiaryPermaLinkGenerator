@@ -113,7 +113,7 @@ def main():
     outPutFile = getArguments().output_file
 
     checkIfReadable(inputFile)
-    checkForClearPermaliks(getArguments().c)
+    checkForClearPermaliks(getArguments())
 
     if outPutFile:
         checkIfReadable(outPutFile)
